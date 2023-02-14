@@ -6,6 +6,10 @@ This is a repository for the course "Stellar Formation and Evolution" from Feb/2
 
 https://s3b.astro.ncu.edu.tw/star_202302/
 
-## Binder web page ##
+## GitHub repository ##
 
 https://github.com/kinoshitadaisuke/ncu_stellarevolution_202302
+
+## Binder web page ##
+
+https://mybinder.org/v2/gh/kinoshitadaisuke/ncu_stellarevolution_202302/HEAD
