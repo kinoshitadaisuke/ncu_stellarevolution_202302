@@ -6,7 +6,7 @@ This is a repository for the course "Stellar Formation and Evolution" from Feb/2
 
 https://s3b.astro.ncu.edu.tw/star_202302/
 
-To download course material, visit above web page. Note that you need to use VPN of our university to download course material. To use VPN of our university, visit following web page.
+To download course material, visit above web page. Note that you need to use VPN of our university to download course material from your home. To use VPN of our university, visit following web page.
 
  - https://ncu.edu.tw/VPN/help
 
