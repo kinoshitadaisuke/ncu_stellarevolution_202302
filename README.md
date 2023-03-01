@@ -2,6 +2,12 @@
 
 This is a repository for the course "Stellar Formation and Evolution" from Feb/2023 to Jun/2023.
 
+## Course overview ##
+
+- Time: from 15:00 to 17:50 on Tuesday
+- Classroom: S4-914
+- Instructor: Kinoshita Daisuke
+
 ## Course web page ##
 
 https://s3b.astro.ncu.edu.tw/star_202302/
