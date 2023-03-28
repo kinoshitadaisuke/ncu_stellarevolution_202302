@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2023/03/27 16:55:30 (CST) daisuke>
+# Time-stamp: <2023/03/28 12:35:36 (CST) daisuke>
 #
 
 # importing nuclyr module
@@ -21,6 +21,6 @@ print (f'mass excess of 1H (proton)    = {massexcess_1H:6.3f}', \
        f'+/- {err_massexcess_1H} MeV')
 print (f'mass excess of 4He (helium-4) = {massexcess_4He:6.3f}', \
        f'+/- {err_massexcess_4He} MeV')
-print (f'energy produced by pp-chain   = {massexcess_1H:6.3f} x 4 -', \
-       f'{massexcess_4He} MeV')
+print (f'energy produced by pp-chain   = {massexcess_1H:6.3f} x 4', \
+       f'- {massexcess_4He} MeV')
 print (f'                              = {energy_ppchain:6.3f} MeV')
