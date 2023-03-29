@@ -1,3 +1,4 @@
 dependencies:
+  - nuclyr
   - python=3.9
   - sympy
