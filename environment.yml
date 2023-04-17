@@ -1,4 +1,8 @@
 dependencies:
+  - ffmpeg
+  - matplotlib
   - nuclyr
+  - numpy
   - python=3.9
+  - scipy
   - sympy
