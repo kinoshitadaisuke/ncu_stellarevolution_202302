@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2023/05/01 17:59:07 (CST) daisuke>
+# Time-stamp: <2023/05/02 09:38:34 (CST) daisuke>
 #
 
 # importing numpy module
@@ -49,14 +49,14 @@ ax.set_ylim (0.0, 13.0)
 ax.set_box_aspect (1)
 
 # plotting data
-ax.plot (ideal_deg_logx, ideal_deg_logy, '-', label=r"$P_{ideal}=P_{deg}$")
+ax.plot (ideal_deg_logx,  ideal_deg_logy,  '-', label=r"$P_{ideal}=P_{deg}$")
 ax.plot (ideal_rdeg_logx, ideal_rdeg_logy, '-', label=r"$P_{ideal}=P_{r-deg}$")
-ax.plot (deg_rdeg_logx, deg_rdeg_logy, '-', label=r"$P_{deg}=P_{r-deg}$")
-ax.plot (ideal_rad_logx, ideal_rad_logy, '-', label=r"$P_{ideal}=10 P_{rad}$")
-ax.text (7.5, 5.0, "ideal gas", horizontalalignment='center')
-ax.text (6.0, 7.0, "degenerate gas", horizontalalignment='center')
+ax.plot (deg_rdeg_logx,   deg_rdeg_logy,   '-', label=r"$P_{deg}=P_{r-deg}$")
+ax.plot (ideal_rad_logx,  ideal_rad_logy,  '-', label=r"$P_{ideal}=10 P_{rad}$")
+ax.text (7.5,  5.0, "ideal gas", horizontalalignment='center')
+ax.text (6.0,  7.0, "degenerate gas", horizontalalignment='center')
 ax.text (7.0, 11.0, "relativistic degenerate gas", horizontalalignment='center')
-ax.text (9.0, 3.0, "radiation pressure", horizontalalignment='center')
+ax.text (9.0,  3.0, "radiation pressure", horizontalalignment='center')
 ax.set_title (r"$\rho$-$T$ diagram")
 ax.legend (loc='lower left')
 
