@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2023/05/01 17:59:15 (CST) daisuke>
+# Time-stamp: <2023/05/02 09:39:10 (CST) daisuke>
 #
 
 # importing numpy module
@@ -95,20 +95,20 @@ ax.set_ylim (0.0, 13.0)
 ax.set_box_aspect (1)
 
 # plotting data
-ax.plot (ideal_deg_logx, ideal_deg_logy, '--')
+ax.plot (ideal_deg_logx,  ideal_deg_logy, '--')
 ax.plot (ideal_rdeg_logx, ideal_rdeg_logy, '--')
-ax.plot (deg_rdeg_logx, deg_rdeg_logy, '--')
-ax.plot (ideal_rad_logx, ideal_rad_logy, '--')
+ax.plot (deg_rdeg_logx,   deg_rdeg_logy, '--')
+ax.plot (ideal_rad_logx,  ideal_rad_logy, '--')
 ax.plot (evo_001_logx, evo_001_logy, '-', label=r"0.1 $M_\odot$", lw=3)
 ax.plot (evo_003_logx, evo_003_logy, '-', label=r"0.3 $M_\odot$", lw=3)
-ax.plot (evo_010_logx, evo_010_logy, '-', label=r"1 $M_\odot$", lw=3)
-ax.plot (evo_030_logx, evo_030_logy, '-', label=r"3 $M_\odot$", lw=3)
-ax.plot (evo_100_logx, evo_100_logy, '-', label=r"10 $M_\odot$", lw=3)
-ax.plot (evo_300_logx, evo_300_logy, '-', label=r"30 $M_\odot$", lw=3)
-ax.text (8.1, 5.0, "ideal gas", horizontalalignment='center')
-ax.text (7.0, 8.0, "degenerate gas", horizontalalignment='center')
+ax.plot (evo_010_logx, evo_010_logy, '-', label=r"1 $M_\odot$",   lw=3)
+ax.plot (evo_030_logx, evo_030_logy, '-', label=r"3 $M_\odot$",   lw=3)
+ax.plot (evo_100_logx, evo_100_logy, '-', label=r"10 $M_\odot$",  lw=3)
+ax.plot (evo_300_logx, evo_300_logy, '-', label=r"30 $M_\odot$",  lw=3)
+ax.text (8.1,  5.0, "ideal gas", horizontalalignment='center')
+ax.text (7.0,  8.0, "degenerate gas", horizontalalignment='center')
 ax.text (8.0, 11.0, "relativistic degenerate gas", horizontalalignment='center')
-ax.text (9.0, 2.5, "radiation pressure", horizontalalignment='center')
+ax.text (9.0,  2.5, "radiation pressure", horizontalalignment='center')
 ax.set_title (r"evolutionary track on $T$-$\rho$ plane")
 ax.legend (bbox_to_anchor=(1.01, 1.0), alignment='left')
 
